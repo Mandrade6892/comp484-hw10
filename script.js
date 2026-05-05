@@ -8,6 +8,11 @@ $(function() {
     $('.nap-button').click(clickedNapButton);
   
 });
+
+console.log("Giga Pet App Loaded");
+console.info("Log Info: Buddy's pet dashboard is ready");
+console.warn("Log Warning: Watch Buddy's happiness and energy levels.");
+console.error("Log Error: This is a sample error message for demonstration purposes.");
 // pet core attributes
 var pet_info = {
   name: "Buddy",
