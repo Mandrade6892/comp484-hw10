@@ -131,7 +131,7 @@ function runBuddyHealthScan() {
 
 function findLostToy() {
   console.warn("Buddy is searching for his lost toy...");
-  fetch("images/lost-toy.png");
+  fetch("images/missingtoy.jpg");
 }
 
 function breakBuddyMessage() {
